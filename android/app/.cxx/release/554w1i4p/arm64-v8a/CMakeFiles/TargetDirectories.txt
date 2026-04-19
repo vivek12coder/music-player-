@@ -1,0 +1,2 @@
+/home/goku/Desktop/music player/android/app/.cxx/release/554w1i4p/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/goku/Desktop/music player/android/app/.cxx/release/554w1i4p/arm64-v8a/CMakeFiles/rebuild_cache.dir

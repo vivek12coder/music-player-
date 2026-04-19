@@ -1,0 +1,54 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Dart / Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub/
+.pub-cache/
+/build/
+**/build/
+
+# Flutter generated
+**/generated_plugin_registrant.dart
+
+# Logs
+*.log
+
+# Coverage
+coverage/
+
+# Android
+android/.gradle/
+android/local.properties
+android/**/captures/
+android/**/GeneratedPluginRegistrant.*
+
+# iOS / macOS generated
+ios/Flutter/ephemeral/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/GeneratedPluginRegistrant.*
+macos/Flutter/ephemeral/
+macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Linux / Windows generated
+linux/flutter/ephemeral/
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugins.cmake
+windows/flutter/ephemeral/
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugins.cmake
+
+# Secrets / local env
+*.keystore
+*.jks
+key.properties
+.env

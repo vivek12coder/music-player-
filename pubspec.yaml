@@ -1,0 +1,42 @@
+name: music_player
+description: Android-first Flutter music player with smart shuffle, background playback, and local library management.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  go_router: ^14.6.2
+  just_audio: ^0.10.5
+  audio_service: ^0.18.17
+  audio_session: ^0.1.25
+  permission_handler: ^12.0.1
+  on_audio_query: ^2.9.0
+  hive_ce: ^2.11.3
+  hive_ce_flutter: ^2.3.4
+  path_provider: ^2.1.5
+  just_waveform: ^0.0.7
+  rxdart: ^0.28.0
+  logger: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  mocktail: ^1.0.4
+  flutter_launcher_icons: ^0.14.3
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "MUSIC PLAYER.png"
+

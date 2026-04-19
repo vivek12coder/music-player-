@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/home/goku/snap/flutter/common/flutter/packages/flutter_tools/gradle/src/main/scripts/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/goku/Android/Sdk/cmake/3.22.1/bin/ninja",
+      "-C",
+      "/home/goku/Desktop/music player/android/app/.cxx/release/554w1i4p/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/goku/Android/Sdk/cmake/3.22.1/bin/ninja",
+    "-C",
+    "/home/goku/Desktop/music player/android/app/.cxx/release/554w1i4p/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}
